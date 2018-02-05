@@ -1,0 +1,25 @@
+{
+  "name": "shi-fu-mini",
+  "version": "1.0.0",
+  "description": "A shifumi generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoinemoutou/shi-fu-mini.git"
+  },
+  "keywords": [
+    "shifumi"
+  ],
+  "author": "Antoine Moutou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoinemoutou/shi-fu-mini/issues"
+  },
+  "homepage": "https://github.com/antoinemoutou/shi-fu-mini#readme",
+  "dependencies": {
+    "mocha": "^5.0.0"
+  }
+}

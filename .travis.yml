@@ -1,0 +1,19 @@
+language: node_js
+
+node_js:
+  - stable
+
+stages:
+  - install
+  - test
+  - name: publish
+    if: branch = master
+
+jobs:
+  include:
+    - stage: install
+      script: npm install
+    - stage : test
+      script : npm test
+    - stage: publish
+      script: npm publish
