@@ -1,2 +1,2 @@
-# ShiFuMini
-The ShiFuMi generator !
+# shi-fu-mini
+The shifumi generator !
