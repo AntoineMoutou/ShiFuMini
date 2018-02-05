@@ -3,10 +3,17 @@ language: node_js
 node_js:
   - stable
 
+notifications:
+  email:
+    recipients:
+      - moutou.antoine@hotmail.fr
+    on_success: never
+    on_failure: always
+
 stages:
   - install
   - test
-  - name: publish
+  - name: deploy
     if: branch = master
 
 jobs:
@@ -15,7 +22,7 @@ jobs:
       script: npm install
     - stage : test
       script : npm test
-    - stage: publish
+    - stage: deploy
       deploy :
         provider: npm
         email: "moutou.antoine@hotmail.fr"
