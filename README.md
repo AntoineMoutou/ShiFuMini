@@ -17,7 +17,7 @@ A small library that create shi-fu-mi objects
     var result = shi.fight(fu);
 
 
-  Output should be `You lose`
+  result should be `You lose`
 
 
 ## Tests
