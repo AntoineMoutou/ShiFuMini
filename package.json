@@ -1,6 +1,6 @@
 {
   "name": "shi-fu-mini",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A shifumi generator",
   "main": "index.js",
   "scripts": {
