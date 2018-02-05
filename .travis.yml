@@ -19,4 +19,4 @@ jobs:
       deploy :
         provider: npm
         email: "moutou.antoine@hotmail.fr"
-        api_key: "9e4aedd4fa3c6f"
+        api_key: "e539c928dbb6b8"
