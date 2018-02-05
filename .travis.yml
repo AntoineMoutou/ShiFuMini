@@ -13,6 +13,7 @@ notifications:
 stages:
   - install
   - test
+  - version
   - name: deploy
     if: branch = master
 
@@ -22,6 +23,8 @@ jobs:
       script: npm install
     - stage : test
       script : npm test
+    - stage : version
+      script : npm version patch
     - stage: deploy
       deploy :
         provider: npm
