@@ -9,6 +9,10 @@ Continuous Integration Report
 
   For each push or pull/merge request of the library on Github Travis installs, tests on virtual machines. It deploys our code on npm only if we are on the master branch.
 
+## Versioning
+
+  Before each push or pull/merge request you need to update the version with "npm version major|minor|patch" in order to have a new release for the publication on npm.
+
 ## Pipeline
 
   ![](figures/pipeline.png)
