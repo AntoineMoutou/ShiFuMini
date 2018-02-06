@@ -17,4 +17,4 @@ Continuous Integration Report
 
   ![](figures/pipeline.png)
 
-  First Travis install the library using git ("git clone") and its dependencies using npm ("npm install" with the package.json file). Then, it tests the library using mocha ("npm test"). Finally it deploys our library on npm ("npm publish") with a new patch ("npm version patch") only if we are on the master branch.
+  First Travis install the library using git ("git clone") and its dependencies using npm ("npm install" with the package.json file). Then, it tests the library using mocha ("npm test"). Finally it deploys our library on npm ("npm publish") only if we are on the master branch.
