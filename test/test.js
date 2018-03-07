@@ -57,6 +57,7 @@ describe('ShiFuMi class',function () {
       var el2 = new shifumi.ShiFuMi("mi");
       assert.ok(el1.fight(el2) == "You lose");
       assert.ok(el2.fight(el1) == "You win");
+      assert.ok(false);
     });
   })
 });
