@@ -1,6 +1,7 @@
 Shi-Fu-Mini
 =========
 
+
 A small library that create shi-fu-mi objects
 
 ## Installation
